@@ -21,7 +21,8 @@
     "homepage": "https://github.com/web-n/Nodejs#readme",
     "dependencies": {
         "axios": "^0.21.1",
-        "express": "^4.17.1",
+        "express": "file:express",
+        "kill": "0.0.2",
         "mysql": "^2.18.1",
         "sanitize-html": "^1.18.2"
     }

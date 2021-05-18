@@ -1,8 +1,13 @@
 const express = require('express');
 const app = express();
 
-app.get('/', function(req, res) {
+axios.get('/', function(req, res) {
     res.send('Hello World!');
+});
+
+axios.get('/signup', function(req, res) {
+
+    res.send('success');
 });
 
 var server = app.listen(3000, function() {
